@@ -1,5 +1,10 @@
 <br>
-Shows when your hero is visible to the enemy team in any way at all. If box is red the enemy team has vision of your hero, good for dewarding and farming safely and many other advantages.
+
+<p align="center" style="font-size:20px">
+Shows when your hero is visible to the enemy team in any way at all
+</p>
+
+When box is red the enemy team has vision of your hero and green if they don't. Good for dewarding and farming safely and many other advantages.
 
 It works in windowed mode only but you can use it in fullscreen if you have dual monitors to show the box on your other screen.
 

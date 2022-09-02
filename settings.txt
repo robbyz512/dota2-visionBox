@@ -1,7 +1,7 @@
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------           
 # do not edit anything before the = sign
 #                                                                                              
-# >> if app does not start check logs.txt or use default settings.txt you might have misconfigured this file
+# >> if app does not start check logs.txt for errors or use default settings.txt you might have misconfigured this file
 #
 # >> to change "notVisibleColor" and "visibleColor" use color hexes https://www.color-hex.com/
 #
@@ -9,9 +9,10 @@
 # >> Check latest dota threads on unknowncheats someone always posts new offsets. https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/
 #                
 # >> "speed" is the delay for showing when you are visible. On an old CPU you can switch to values like 0.05 or 0.1
-#
-# HOTKEYS: left click box to drag 
-#          double click box to close program                                                                                                                                             
+#	
+# HOTKEYS:
+#       Hold Left Click on box to move it
+#	    Double Click the box to close it                                                                                                                                            
 # -------------------------------------------------------------------------------------------                                                                                                              
 # Follow me on github for more dota2 projects:  https://github.com/robbyz512                                                                                                            
 #--------------------------------------------------------------------------------------------     

@@ -1,0 +1,35 @@
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------           
+# do not edit anything before the = sign
+#                                                                                              
+# >> if app does not start check logs.txt or use default settings.txt you might have misconfigured this file
+#
+# >> to change "notVisibleColor" and "visibleColor" use color hexes https://www.color-hex.com/
+#
+# >> when dota2 updates you sometimes need new values for "address" and "offset". If the box stays orange when you load into the map then the offset is likely outdated 
+# >> Check latest dota threads on unknowncheats someone always posts new offsets. https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/
+#                
+# >> "speed" is the delay for showing when you are visible. On an old CPU you can switch to values like 0.05 or 0.1
+#
+# HOTKEYS: left click box to drag 
+#          double click box to close program                                                                                                                                             
+# -------------------------------------------------------------------------------------------                                                                                                              
+# Follow me on github for more dota2 projects:  https://github.com/robbyz512                                                                                                            
+#--------------------------------------------------------------------------------------------     
+
+posX=0
+
+posY=0
+
+width=450
+
+height=30
+
+notVisibleColor=#66FF66
+
+visibleColor=#990200
+
+address=0055AD70
+
+offsets=0 30 38 98 170 0 AD0
+
+speed=0.01

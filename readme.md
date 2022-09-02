@@ -1,0 +1,1 @@
+python -m nuitka --onefile --enable-plugin=tk-inter --windows-disable-console --windows-icon-from-ico=favicon.ico --include-package=pymeow visionBox.pyw

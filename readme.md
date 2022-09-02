@@ -10,8 +10,6 @@ It works in windowed mode only but you can use it in fullscreen if you have dual
 **You can customize box position, size, colors in settings.txt**
 
 ## Screenshots:
-<hr>
-
 
 <p align="center">
     Visible
@@ -23,7 +21,6 @@ It works in windowed mode only but you can use it in fullscreen if you have dual
 </p>
 
 ## Installation Instructions
-<hr>
 
 `python 3.10.6`
 

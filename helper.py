@@ -12,6 +12,7 @@ visibleColor = None
 address = None
 offsets = []
 speed = None
+threshold = None
 
 if not os.path.exists('settings.txt'):
     root = Tk()
@@ -45,6 +46,7 @@ with open('settings.txt') as file:
                     if f_val < 0.01:
                         f_val = 0.01
                     speed = f_val
+                if line[0] == 'threshold': threshold = int(line[1])
             except Exception:
                 with open('log.txt', 'w+') as file:
                     file.write(traceback.format_exc())

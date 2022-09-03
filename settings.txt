@@ -8,8 +8,9 @@
 # >> when dota2 updates you sometimes need new values for "address" and "offset". If the box stays orange when you load into the map then the offset is likely outdated 
 # >> Check latest dota threads on unknowncheats someone always posts new offsets. https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/
 #                
-# >> "speed" is the delay for showing when you are visible. On an old CPU you can switch to values like 0.05 or 0.1
-#	
+# >> "speed" is the delay for iterating addresses. On an old CPU you can switch to values like 0.05 or 0.1 (less cpu usage but more delay)
+# >> "threshold" is how many addresses to process every iteration, do not go lower then 5. Only raise this between 6-10 if your box is flashing to visible incorrectly, adds a few milliseconds delay but fixes problems
+#
 # HOTKEYS:
 #       Hold Left Click on box to move it
 #	    Double Click the box to close it                                                                                                                                            
@@ -34,3 +35,5 @@ address=0055AD70
 offsets=0 30 38 98 170 0 AD0
 
 speed=0.01
+
+threshold=5

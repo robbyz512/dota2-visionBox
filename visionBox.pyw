@@ -72,9 +72,10 @@ class App():
         self.root.destroy()
 
     # ------------------------------------ app ----------------------------------- #
-    def all_equal(self, iterable):
-        g = groupby(iterable)
-        return next(g, True) and not next(g, False)
+    def unique_values(self, duplicates):
+        items = set(duplicates)
+        num_values = len(items)
+        return num_values
 
     def manageProcess(self):
         global process, base_address
@@ -93,26 +94,29 @@ class App():
             time.sleep(1.5)
 
     def Visualizer(self):
-        count = 0
-        duplicates = []
+
+        duplicates = [0] * helper.threshold
+
         while True:
             try:
+
                 addr = get_static_address(process, base_address, helper.offsets)
+
                 duplicates.append(addr)
 
-                if addr == 0:   
-                    count += 1
-                    if count >= 10:
-                        count = 0
-                        duplicates = []
+                if len(duplicates) == helper.threshold + 1:
+                    duplicates.pop(0)
+
+                    if self.unique_values(duplicates) < 2:
                         self.root.configure(background=helper.visibleColor)
-                elif addr != 0 and self.all_equal(duplicates[-5:]):
-                    count = 0
-                    self.root.configure(background=helper.visibleColor)
-                else:
-                    count = 0
-                    self.root.configure(background=helper.notVisibleColor)
-            except Exception:
+                    
+                    if self.unique_values(duplicates) > 3:
+                        self.root.configure(background=helper.notVisibleColor)
+
+                time.sleep(helper.speed)
+
+                print(duplicates)
+            except Exception as e:
                 pass
 
             time.sleep(helper.speed)

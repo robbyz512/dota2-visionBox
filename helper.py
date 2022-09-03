@@ -1,3 +1,6 @@
+import os
+from tkinter import *
+from tkinter import messagebox
 import traceback
 
 posX = None
@@ -9,6 +12,11 @@ visibleColor = None
 address = None
 offsets = []
 speed = None
+
+if not os.path.exists('settings.txt'):
+    root = Tk()
+    root.withdraw()
+    messagebox.showinfo("visionBox", "settings.txt not found, extract it to where visionBox.exe is")
 
 with open('settings.txt') as file:
     

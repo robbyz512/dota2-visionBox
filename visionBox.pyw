@@ -43,7 +43,7 @@ class App():
 
     def exit(self):
         self.root.destroy()
-    
+
     def setupGUI(self):
         self.root.resizable(False, False)
         self.root.app_width = helper.width

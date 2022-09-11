@@ -25,7 +25,10 @@ It works in windowed mode only but you can use it in fullscreen if you have dual
     <img src="https://i.imgur.com/EG3AG4u.jpg">
 </p>
 
-## Installation Instructions
+## Download
+https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/513393-dota-2-visionbox-customizable-overlay-cheat.html
+
+## Compile Instructions
 
 `python 3.10.6`
 

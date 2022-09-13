@@ -4,7 +4,7 @@
 Shows when your hero is visible to the enemy team in any way at all
 </p>
 
-When box is red the enemy team has vision of your hero and green if they don't. Good for dewarding and farming safely and many other advantages.
+When box is red the enemy team has vision of your hero and green if they don't. Lets you know if you are under a ward or an invisible hero sees you..etc makes rotating/farming/initiating/dewarding all much easier. It's basically like having slark ultimate passive on every hero.
 
 It works in windowed mode only but you can use it in fullscreen if you have dual monitors to show the box on your other screen.
 
@@ -25,7 +25,10 @@ It works in windowed mode only but you can use it in fullscreen if you have dual
     <img src="https://i.imgur.com/EG3AG4u.jpg">
 </p>
 
-## Installation Instructions
+## Download
+https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/513393-dota-2-visionbox-customizable-overlay-cheat.html
+
+## Compile Instructions
 
 `python 3.10.6`
 

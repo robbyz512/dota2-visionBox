@@ -3,7 +3,6 @@ import threading
 import traceback
 import pymeow as pym
 import tkinter as tk
-from itertools import groupby
 
 import helper
 
@@ -33,7 +32,7 @@ class App():
         self.root.bind('<Button-1>', self.SaveLastClickPos)
         self.root.bind('<B1-Motion>', self.Dragging)
         self.root.bind('<ButtonRelease-1>', self.Release)
-        self.root.bind('<Double-Button-1>', self.RightClick)
+        self.root.bind('<Double-Button-1>', self.DoubleClick)
         self.setupGUI()
 
         threading.Thread(target=self.manageProcess, daemon=True).start()
@@ -68,7 +67,7 @@ class App():
     def Release(self, event):
         self.label.pack_forget()
 
-    def RightClick(self, event):
+    def DoubleClick(self, event):
         self.root.destroy()
 
     # ------------------------------------ app ----------------------------------- #
@@ -98,6 +97,9 @@ class App():
         duplicates = [0] * helper.threshold
 
         while True:
+
+            time.sleep(helper.speed)
+
             try:
 
                 addr = get_static_address(process, base_address, helper.offsets)
@@ -113,13 +115,9 @@ class App():
                     if self.unique_values(duplicates) > 3:
                         self.root.configure(background=helper.notVisibleColor)
 
-                time.sleep(helper.speed)
-
-                print(duplicates)
-            except Exception as e:
+                time.sleep(helper.speed) 
+            except Exception:
                 pass
-
-            time.sleep(helper.speed)
 
 if __name__ == '__main__':
     try:

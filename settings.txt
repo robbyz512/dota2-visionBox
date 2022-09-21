@@ -30,7 +30,7 @@ notVisibleColor=#66FF66
 
 visibleColor=#990200
 
-address=0055AD30
+address=0055AD20
 
 offsets=0 30 38 98 170 0 AD0
 

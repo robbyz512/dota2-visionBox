@@ -18,9 +18,9 @@ It works in windowed mode only but you can use it in fullscreen if you have dual
 
 <p align="center">
     Visible
-    <img src="https://i.imgur.com/VPF08Qx.png">
+    <img src="https://i.imgur.com/FUTJ3dN.png">
     Not visible
-    <img src="https://i.imgur.com/DeQjyH3.png">
+    <img src="https://i.imgur.com/RgyCJqx.png">
     Fullscreen Support for Dual Monitor
     <img src="https://i.imgur.com/EG3AG4u.jpg">
 </p>

@@ -1,5 +1,9 @@
 <br>
 
+<p align="center" style="font-size:30px; color: #7d1211 ">
+This tool and all other visibility cheats do not work anymore they are patched by Valve. When other hackers discover a new method I can update this tool.
+</p>
+
 <p align="center" style="font-size:20px">
 Shows when your hero is visible to the enemy team in any way at all
 </p>
@@ -8,9 +12,10 @@ When box is red the enemy team has vision of your hero and green if they don't. 
 
 It works in windowed mode only but you can use it in fullscreen if you have dual monitors to show the box on your other screen.
 
-## Hotkeys: 
-	Hold Left Click on box to move it
-	Double Click the box to close it
+## Hotkeys:
+
+    Hold Left Click on box to move it
+    Double Click the box to close it
 
 **You can customize box position, size, colors in settings.txt**
 
@@ -26,6 +31,7 @@ It works in windowed mode only but you can use it in fullscreen if you have dual
 </p>
 
 ## Download
+
 https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/513393-dota-2-visionbox-customizable-overlay-cheat.html
 
 ## Compile Instructions

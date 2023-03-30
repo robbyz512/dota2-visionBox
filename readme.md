@@ -1,8 +1,6 @@
 <br>
 
-<p align="center" style="font-size:30px; color: #7d1211 ">
-This tool and all other visibility cheats do not work anymore they are patched by Valve. When other hackers discover a new method I can update this tool.
-</p>
+# I've moved on to other projects so this page is archived but will stay up for research and reference purposes.
 
 <p align="center" style="font-size:20px">
 Shows when your hero is visible to the enemy team in any way at all
